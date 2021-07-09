@@ -4,8 +4,8 @@
     </a>
     <nav class="navHeader">
         <ul class="navHeader__list">
-            <li class="navHeader__item"><a class="navHeader__link" href="/admin/login">Login</a></li>
-            <li class="navHeader__item"><a class="navHeader__link" href="/admin/register">Register</a></li>
+            <li class="navHeader__item"><a class="navHeader__link" href="/auth/login">Login</a></li>
+            <li class="navHeader__item"><a class="navHeader__link" href="/auth/register">Register</a></li>
         </ul>
     </nav>
 </header>

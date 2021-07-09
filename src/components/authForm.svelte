@@ -1,7 +1,10 @@
 <section class="auth">
-    <img class="auth__logo"  src="/Klarr_Logo.svg" alt="klarr logo">
+    <a href="/">
+        <img class="auth__logo"  src="/Klarr_Logo.svg" alt="klarr logo">
+    </a>
     <InputField/>
     <Button/>
+    <a href="/auth/register">Sign up</a>
 </section>
 <style lang="scss">
     .auth {
