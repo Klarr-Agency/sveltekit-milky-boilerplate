@@ -15,7 +15,9 @@
         </nav>
     {:else if headerType === "backend"}
         <div class="logo">
-            <img src="/klarr_logo.svg" alt="Backend logo" width="150px">
+            <a href="/admin/dashboard">
+                <img src="/klarr_logo.svg" alt="Backend logo" width="150px">
+            </a>
         </div>
         <div class="profil">
             <img class="profil__img" src="" alt="profil">

@@ -1,4 +1,5 @@
 <script lang="typescript">
+    import { goto } from '$app/navigation';
     import InputField from "../components/inputField.svelte";
     import Button from "../components/button.svelte";
     import Link from "../components/link.svelte";
@@ -18,6 +19,10 @@
     let registerPage = {url:"/auth/register", text: "Sign up", cssClass: ""};
     let loginButton = "Log in";
     let registerButton = "Register";
+
+    function goToDashboard() {
+		goto("/admin/dashboard")
+	}
 </script>
 <section class="auth">
     <a href="/">
@@ -29,7 +34,7 @@
                 <InputField label={label} type={type}/>
             {/each}
             <div class="auth__buttons">
-                <Button text={loginButton}/>
+                <Button text={loginButton} on:click={goToDashboard}/>
                 <Link {...registerPage} />
             </div>
         {:else if authType === "register"}
@@ -37,7 +42,7 @@
             <InputField label={label} type={type}/>
             {/each}
             <div class="auth__buttons">
-                <Button text={registerButton}/>
+                <Button text={registerButton} on:click={goToDashboard}/>
                 <Link {...loginPage} />
             </div>
         {/if}
