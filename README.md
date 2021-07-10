@@ -14,16 +14,21 @@ Work in progress
 
 ## Components
 
-- [ ] Input
+### Status
+
+[![Status Inprogress](https://img.shields.io/badge/Props%20or%20SCSS-Inprogress-yellow)]()
+[![Status Complete](https://img.shields.io/badge/Props%2BSCSS-Complete-brightgreen)]()
+
+- [ ] Input [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 - [ ] Search input
 - [ ] Number input
 - [ ] Text area
-- [ ] Buttons
+- [ ] Buttons [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 - [ ] Breadcrumb
 - [ ] Checkbox
 - [ ] Radio button
 - [ ] Range slider
-- [ ] Link
+- [ ] Link [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 - [ ] Toggle/ Switch
 - [ ] Dropdown menu
 - [ ] Tile
