@@ -1,5 +1,8 @@
+<script>
+    import AuthForm from "../../components/authForm.svelte";
+</script>
 <div class="register">
-    <AuthForm />
+    <AuthForm authType={"register"}/>
 </div>
 <style lang="scss">
     .register {
@@ -8,6 +11,3 @@
         height: 100vh;
     }
 </style>
-<script>
-    import AuthForm from "../../components/authForm.svelte";
-</script>

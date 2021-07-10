@@ -1,3 +1,6 @@
+<script>
+    import Header from "../components/header.svelte";
+</script>
 <div class="wrapper">
     <Header/>
     <slot></slot>
@@ -8,6 +11,3 @@
         min-height: 100vh;
     }
 </style>
-<script>
-    import Header from "../components/header.svelte"
-</script>

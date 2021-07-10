@@ -1,11 +1,16 @@
+<script>
+    export let label = "label";
+    export let type = "text";
+</script>
 <div class="inputField">
-    <label for="login" class="inputField__label">Username</label>
-    <input id="login" type="text" class="inputField__input">
+    <label for="{label}" class="inputField__label">{label}</label>
+    <input id="{label}" type="{type}" class="inputField__input">
 </div>
 <style lang="scss">
     .inputField {
         display: flex;
         flex-direction: column;
+        margin-bottom: 24px;
         width: 100%;
         &__label {
             color: #FCFCFC;
@@ -27,6 +32,3 @@
         }
     }
 </style>
-<script>
-
-</script>
