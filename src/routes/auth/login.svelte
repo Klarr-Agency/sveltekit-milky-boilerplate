@@ -1,5 +1,5 @@
 <div class="login">
-    <AuthForm />
+    <AuthForm authType={"login"} />
 </div>
 <style lang="scss">
     .login {

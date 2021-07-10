@@ -1,8 +1,9 @@
-<script>
+<script lang="typescript">
     import InputField from "../components/inputField.svelte";
     import Button from "../components/button.svelte";
     import Link from "../components/link.svelte";
-    export let authType = "login";
+    type auth = "login" | "register";
+    export let authType:auth;
 
     let loginInputs = [
         {label: "Username", type: "text"},

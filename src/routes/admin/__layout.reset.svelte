@@ -1,13 +1,8 @@
+<script>
+    import Header from "../../components/header.svelte";
+</script>
 <div class="adminLayout">
-    <header class="header header--admin">
-        <div class="logo">
-            <img src="/klarr_logo.svg" alt="Backend logo" width="150px">
-        </div>
-        <div class="profil">
-            <img class="profil__img" src="" alt="profil">
-            <p class="profil__name">John Doe</p>
-        </div>
-    </header>
+    <Header headerType={"backend"}/>
     <aside class="sideNav">
         <nav>
             <ul>
@@ -36,11 +31,5 @@
     }
     .mainContent {
         grid-area: main;
-    }
-    .header--admin {
-        display: flex;
-        grid-area: header;
-        justify-content: space-between;
-        align-items: center;
     }
 </style>

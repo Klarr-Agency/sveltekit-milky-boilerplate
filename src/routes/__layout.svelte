@@ -2,7 +2,7 @@
     import Header from "../components/header.svelte";
 </script>
 <div class="wrapper">
-    <Header/>
+    <Header headerType={"frontend"}/>
     <slot></slot>
 </div>
 <style>
