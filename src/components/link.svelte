@@ -3,7 +3,7 @@
     export let text = "Text for your link";
     export let cssClass;
 </script>
-<a class="link {cssClass}" href="{url}">{text}</a>
+<a class="link link--{cssClass}" href="{url}">{text}</a>
 <style lang="scss">
     .link {
         font-family: 'Work Sans', sans-serif;
@@ -11,6 +11,9 @@
         text-decoration: none;
         padding: 12px 24px;
         color: #fff;
+        &--sideNav {
+            padding: 0;
+        }
         &:hover {
             color: red;
         }
