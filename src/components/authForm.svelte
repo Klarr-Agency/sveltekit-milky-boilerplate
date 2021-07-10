@@ -1,10 +1,46 @@
+<script>
+    import InputField from "../components/inputField.svelte";
+    import Button from "../components/button.svelte";
+    import Link from "../components/link.svelte";
+    export let authType = "login";
+
+    let loginInputs = [
+        {label: "Username", type: "text"},
+        {label: "Password", type: "password"}
+    ];
+    let registerInputs = [
+        {label: "Email", type: "email"},
+        {label: "Username", type: "text"},
+        {label: "Password", type: "password"}
+    ];
+    let loginPage = {url:"/auth/login", text: "Sign in", cssClass: ""};
+    let registerPage = {url:"/auth/register", text: "Sign up", cssClass: ""};
+    let loginButton = "Log in";
+    let registerButton = "Register";
+</script>
 <section class="auth">
     <a href="/">
         <img class="auth__logo"  src="/Klarr_Logo.svg" alt="klarr logo">
     </a>
-    <InputField/>
-    <Button/>
-    <a href="/auth/register">Sign up</a>
+    <div class="auth__form">
+        {#if authType === "login"}
+            {#each loginInputs as {label,type} }
+                <InputField label={label} type={type}/>
+            {/each}
+            <div class="auth__buttons">
+                <Button text={loginButton}/>
+                <Link {...registerPage} />
+            </div>
+        {:else if authType === "register"}
+            {#each registerInputs as {label,type} }
+            <InputField label={label} type={type}/>
+            {/each}
+            <div class="auth__buttons">
+                <Button text={registerButton}/>
+                <Link {...loginPage} />
+            </div>
+        {/if}
+    </div>
 </section>
 <style lang="scss">
     .auth {
@@ -19,9 +55,17 @@
         &__logo {
             width: 200px;
         }
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+        }
+        &__buttons {
+            display: flex;
+            align-items: center;
+        }
     }
 </style>
-<script>
-    import InputField from "../components/inputField.svelte";
-    import Button from "../components/button.svelte";
-</script>

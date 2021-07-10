@@ -1,4 +1,7 @@
-<button class="button">Log in</button>
+<script>
+    export let text = "Button text";
+</script>
+<button class="button">{text}</button>
 <style lang="scss">
 .button {
     background-color: rgb(12, 12, 12);
