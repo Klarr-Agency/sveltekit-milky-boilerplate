@@ -16,24 +16,25 @@ Work in progress
 
 ### Status
 
-[![Status Inprogress](https://img.shields.io/badge/Props%20or%20SCSS-Inprogress-yellow)]()
-[![Status Complete](https://img.shields.io/badge/Props%2BSCSS-Complete-brightgreen)]()
+[![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+[![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
+[![Status Complete](https://img.shields.io/badge/-Complete-brightgreen)]()
 
 - [ ] Input [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
-- [ ] Search input
-- [ ] Number input
-- [ ] Text area
+- [ ] Search input [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Number input [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Text area [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Buttons [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
-- [ ] Breadcrumb
-- [ ] Checkbox
-- [ ] Radio button
-- [ ] Range slider
+- [ ] Breadcrumb [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Checkbox [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Radio button [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Range slider [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Link [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
-- [ ] Toggle/ Switch
-- [ ] Dropdown menu
-- [ ] Tile
-- [ ] Tag
-- [ ] Grid
+- [ ] Toggle/ Switch [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Dropdown menu [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Tile [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Tag [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Grid [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 
 ## Developing
 
