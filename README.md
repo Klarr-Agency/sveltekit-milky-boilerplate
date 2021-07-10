@@ -8,27 +8,27 @@ Work in progress
 
 ## Features
 
-[ ] - Dashboard view
-[ ] - Authentification form
-[ ] - Calendar
+- [ ] Dashboard view
+- [ ] Authentification form
+- [ ] Calendar
 
 ## Components
 
-[ ] - Input
-[ ] - Search input
-[ ] - Number input
-[ ] - Text area
-[ ] - Buttons
-[ ] - Breadcrumb
-[ ] - Checkbox
-[ ] - Radio button
-[ ] - Range slider
-[ ] - Link
-[ ] - Toggle/ Switch
-[ ] - Dropdown menu
-[ ] - Tile
-[ ] - Tag
-[ ] - Grid
+- [ ] Input
+- [ ] Search input
+- [ ] Number input
+- [ ] Text area
+- [ ] Buttons
+- [ ] Breadcrumb
+- [ ] Checkbox
+- [ ] Radio button
+- [ ] Range slider
+- [ ] Link
+- [ ] Toggle/ Switch
+- [ ] Dropdown menu
+- [ ] Tile
+- [ ] Tag
+- [ ] Grid
 
 ## Developing
 
