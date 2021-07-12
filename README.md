@@ -1,4 +1,4 @@
-# klarr-components-svelte
+# SvelteKit Klarr boilerplate
 
 Work in progress
 
