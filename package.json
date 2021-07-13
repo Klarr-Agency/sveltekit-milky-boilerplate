@@ -1,5 +1,6 @@
 {
-	"name": "Klarr-design-system",
+	"name": "🥛 sveltekit milky boilerplate",
+    "author": "Klarr Agency",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3002",

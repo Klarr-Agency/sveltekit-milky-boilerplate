@@ -15,7 +15,7 @@
             padding: 0;
         }
         &:hover {
-            color: red;
+            color: #D99C98;
         }
     }
 </style>
