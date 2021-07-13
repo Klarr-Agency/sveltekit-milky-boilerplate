@@ -1,5 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/87146097/125351550-36a95580-e32e-11eb-9f4d-9bdf52704de2.png" width="40px"/> SvelteKit Milky boilerplate 
-
+# <img src="https://user-images.githubusercontent.com/87146097/125525457-fb1e6547-9f58-4eec-937b-9260086ba486.png" width="30px"/> SvelteKit Milky boilerplate 
 
 Work in progress
 
