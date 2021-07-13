@@ -1,4 +1,5 @@
-# SvelteKit Klarr boilerplate
+# <img src="https://user-images.githubusercontent.com/87146097/125351550-36a95580-e32e-11eb-9f4d-9bdf52704de2.png" width="40px"/> SvelteKit Milky boilerplate 
+
 
 Work in progress
 
