@@ -2,6 +2,9 @@
     import Header from "../../components/header.svelte";
     import SideNav from "../../components/sideNav.svelte";
 </script>
+<svelte:head>
+    <title>Dashboard</title>
+</svelte:head>
 <div class="adminLayout">
     <Header headerType={"backend"}/>
     <SideNav/>

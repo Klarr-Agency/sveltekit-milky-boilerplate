@@ -20,14 +20,15 @@
             margin-bottom: 8px;
         }
         &__input {
-            background-color: #262626;
-            border-radius: 18px;
-            border: 3px solid transparent;
+            background-color: #292B3A;
+            border-radius: 12px;
+            border: 1px solid #424453;
+            color: #FFF;
             padding: 4px 16px;
-            height: 38px;
+            height: 43px;
             &:focus {
                 outline: 0;
-                border: 3px solid red;
+                border: 1px solid #D99C98;
             }
         }
     }

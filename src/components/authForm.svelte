@@ -26,7 +26,7 @@
 </script>
 <section class="auth">
     <a href="/">
-        <img class="auth__logo"  src="/Klarr_Logo.svg" alt="klarr logo">
+        <img class="auth__logo"  src="/milky-logo-wt.svg" alt="klarr logo">
     </a>
     <div class="auth__form">
         {#if authType === "login"}
@@ -53,7 +53,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #202020;
+        background-color: #222433;
         border-radius: 32px;
         padding: 46px;
         min-height: 500px;

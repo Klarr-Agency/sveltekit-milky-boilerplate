@@ -5,7 +5,7 @@
 <header class="header header--{headerType}">
     {#if headerType === "frontend"}
         <a href="/">
-            <img class="header__logo"  src="/Klarr_Logo.svg" alt="klarr logo">
+            <img class="header__logo"  src="/milky-logo-wt.svg" alt="klarr logo">
         </a>
         <nav class="navHeader">
             <ul class="navHeader__list">
@@ -16,7 +16,7 @@
     {:else if headerType === "backend"}
         <div class="logo">
             <a href="/admin/dashboard">
-                <img src="/klarr_logo.svg" alt="Backend logo" width="150px">
+                <img src="/milky-logo-wt.svg" alt="Backend logo" width="150px">
             </a>
         </div>
         <div class="profil">
