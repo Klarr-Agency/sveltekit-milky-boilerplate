@@ -53,7 +53,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #222433;
+        background-color: var(--color-level-2);
         border-radius: 32px;
         padding: 46px;
         min-height: 500px;

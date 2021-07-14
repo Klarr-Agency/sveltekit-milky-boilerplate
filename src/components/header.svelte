@@ -1,4 +1,5 @@
 <script lang="typescript">
+    import InputSearch from "../components/inputSearch.svelte";
     type header = "frontend" | "backend";
     export let headerType:header;
 </script>
@@ -14,14 +15,17 @@
             </ul>
         </nav>
     {:else if headerType === "backend"}
-        <div class="logo">
+        <div class="logoContainer">
             <a href="/admin/dashboard">
-                <img src="/milky-logo-wt.svg" alt="Backend logo" width="150px">
+                <img class="header__logo" src="/milky-logo-wt.svg" alt="Backend logo">
             </a>
         </div>
-        <div class="profil">
-            <img class="profil__img" src="" alt="profil">
-            <p class="profil__name">John Doe</p>
+        <div class="profile">
+            <InputSearch/>
+            <div class="profile__menu">
+                <img class="profile__img" src="" alt="profil">
+                <p class="profile__name">John Doe</p>
+            </div>
         </div>
     {/if}
 </header>
@@ -32,14 +36,36 @@
         align-items: center;
         padding: 24px;
         height: 50px;
+        $self: &;
         &--backend {
-            display: flex;
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 1fr;
+            grid-template-areas: "logo title profile";
+            grid-template-rows: 100px;
             grid-area: header;
-            justify-content: space-between;
+            padding: 0;
+            height: 100%;
+            #{ $self }__logo {
+                width: 130px;
+            }
+        }
+        .logoContainer {
+            display: flex;
             align-items: center;
+            justify-content: center;
+            grid-area: logo;
+            height: 100%;
         }
         &__logo {
             width: 150px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 24px;;
+            grid-area: profile;
+            height: 100%;
         }
         .navHeader {
             &__list {
@@ -54,7 +80,7 @@
             &__link {
                 color: #fff;
                 text-decoration: none;
-                font-family: 'Work Sans', sans-serif;
+                font-family: var(--font-family);
                 font-weight: 400;
             }
         }

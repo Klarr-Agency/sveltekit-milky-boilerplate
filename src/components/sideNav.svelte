@@ -8,9 +8,9 @@
 </script>
 <aside class="sideNav">
     <nav>
-        <ul>
+        <ul class="sideNav__list">
             {#each navLinks as {url,text, cssClass} }
-            <li>
+            <li class="sideNav__item">
                 <Link url={url} text={text} cssClass={cssClass}/>
             </li>
             {/each}
@@ -19,6 +19,22 @@
 </aside>
 <style lang="scss">
     .sideNav {
+        background-color: var(--color-level-2);
+        border-radius: 32px;
+        margin: 0 24px 24px;
         grid-area: sideNav;
+        $self: &;
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            padding: 0;
+            #{ $self }__item {
+                padding: 12px;
+                font-size: 18px;
+            }
+        }
     }
 </style>

@@ -6,7 +6,7 @@
 <a class="link link--{cssClass}" href="{url}">{text}</a>
 <style lang="scss">
     .link {
-        font-family: 'Work Sans', sans-serif;
+        font-family: var(--font-family);
         font-weight: 400;
         text-decoration: none;
         padding: 12px 24px;
@@ -15,7 +15,7 @@
             padding: 0;
         }
         &:hover {
-            color: #D99C98;
+            color: var(--color-secondary);
         }
     }
 </style>

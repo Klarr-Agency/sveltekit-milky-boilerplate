@@ -20,15 +20,16 @@
             margin-bottom: 8px;
         }
         &__input {
-            background-color: #292B3A;
+            background-color: var(--color-level-3);
             border-radius: 12px;
-            border: 1px solid #424453;
+            border: 1px solid var(--color-border-input);
             color: #FFF;
+            font-family: var(--font-family);
             padding: 4px 16px;
             height: 43px;
             &:focus {
                 outline: 0;
-                border: 1px solid #D99C98;
+                border: 1px solid var(--color-secondary);
             }
         }
     }
