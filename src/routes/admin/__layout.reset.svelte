@@ -16,7 +16,7 @@
     .adminLayout {
         display: grid;
         grid-template-columns: 0.5fr 1fr 1fr;
-        grid-template-rows: 80px 1fr;
+        grid-template-rows: auto 1fr;
         grid-template-areas: 
         "header header header"
         "sideNav main main";
@@ -24,5 +24,6 @@
     }
     .mainContent {
         grid-area: main;
+        margin:24px;
     }
 </style>
