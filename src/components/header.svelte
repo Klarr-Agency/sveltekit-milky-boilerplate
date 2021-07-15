@@ -66,6 +66,20 @@
             margin-right: 24px;;
             grid-area: profile;
             height: 100%;
+            &__menu {
+                display: flex;
+                align-items: center;
+            }
+            &__img {
+                border-radius: 100%;
+                height: 30px;
+                width: 30px;
+            }
+            &__name {
+                color: #fff;
+                font-family: var(--font-family);
+                margin-left: 24px;
+            }
         }
         .navHeader {
             &__list {

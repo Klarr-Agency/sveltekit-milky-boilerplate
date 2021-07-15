@@ -1,16 +1,18 @@
 <script>
     import Link from "../components/link.svelte";
+    import Icon from "../components/icon.svelte";
     let navLinks = [
-        {url: "/admin/dashboard", text: "Dashboard",cssClass: "sideNav"},
-        {url: "/admin/product", text: "Product", cssClass: "sideNav"},
-        {url: "/admin/blogpost", text: "Blog Post", cssClass: "sideNav"}
+        {url: "/admin/dashboard", text: "Dashboard",cssClass: "link--sideNav", iconName:"home"},
+        {url: "/admin/product", text: "Product", cssClass: "link--sideNav", iconName:"products"},
+        {url: "/admin/blogpost", text: "Blog Post", cssClass: "link--sideNav",  iconName:"blog"}
     ];
 </script>
 <aside class="sideNav">
     <nav>
         <ul class="sideNav__list">
-            {#each navLinks as {url,text, cssClass} }
+            {#each navLinks as {url,text, cssClass, iconName} }
             <li class="sideNav__item">
+                <Icon iconName={iconName} />
                 <Link url={url} text={text} cssClass={cssClass}/>
             </li>
             {/each}
@@ -32,6 +34,8 @@
             list-style-type: none;
             padding: 0;
             #{ $self }__item {
+                display: flex;
+                align-items: center;
                 padding: 12px;
                 font-size: 18px;
             }
