@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/87146097/125525457-fb1e6547-9f58-4eec-937b-9260086ba486.png" width="30px"/> SvelteKit Milky boilerplate 
+# <img src="https://user-images.githubusercontent.com/87146097/125525457-fb1e6547-9f58-4eec-937b-9260086ba486.png" width="30px"/> SvelteKit Milky boilerplate
 
 Work in progress
 
@@ -35,6 +35,7 @@ Work in progress
 - [ ] Tile [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Tag [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Grid [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Icons [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 
 ## Developing
 
