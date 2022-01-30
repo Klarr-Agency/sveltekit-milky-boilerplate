@@ -1,10 +1,10 @@
 :root {
 	--font-size: 80px;
 	--font-family: 'Work Sans', sans-serif;
-	--color-primary: #548c8b;
-	--color-secondary: #e51d4b;
+	--color-primary: #e51d4b;
+	--color-secondary: #548c8b;
 	--color-level-1: #1e1e2c;
 	--color-level-2: #222433;
 	--color-level-3: #292b3a;
-	--color-border-input: #424453;
+	--color-border-input: #373854;
 }

@@ -1,6 +1,6 @@
 <script lang="typescript">
 	import { goto } from '$app/navigation';
-	import InputField from '../components/inputField.svelte';
+	import InputText from './inputText.svelte';
 	import Button from '../components/button.svelte';
 	import Link from '../components/link.svelte';
 	type auth = 'login' | 'register';
@@ -32,7 +32,7 @@
 	<form class="auth__form">
 		{#if authType === 'login'}
 			{#each loginInputs as { label, type }}
-				<InputField {label} {type} />
+				<InputText {label} />
 			{/each}
 			<div class="auth__buttons">
 				<Button text={loginButton} on:click={goToDashboard} />
@@ -40,7 +40,7 @@
 			</div>
 		{:else if authType === 'register'}
 			{#each registerInputs as { label, type }}
-				<InputField {label} {type} />
+				<InputText {label} />
 			{/each}
 			<div class="auth__buttons">
 				<Button text={registerButton} on:click={goToDashboard} />

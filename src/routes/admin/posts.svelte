@@ -3,6 +3,6 @@
 </script>
 
 <svelte:head>
-	<title>Dashboard</title>
+	<title>Dashboard - Posts</title>
 </svelte:head>
-<Banner title="Dashboard" />
+<Banner title="Posts" />

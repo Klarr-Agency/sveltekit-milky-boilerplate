@@ -3,9 +3,6 @@
 	import SideNav from '../../components/sideNav.svelte';
 </script>
 
-<svelte:head>
-	<title>Dashboard</title>
-</svelte:head>
 <div class="adminLayout">
 	<SideNav />
 	<Header headerType={'backend'} />
@@ -26,6 +23,6 @@
 	}
 	.mainContent {
 		grid-area: main;
-		margin: 24px;
+		margin: 0 64px;
 	}
 </style>

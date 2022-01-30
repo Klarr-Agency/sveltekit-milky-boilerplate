@@ -11,18 +11,18 @@
 			highlight: 'dashboard'
 		},
 		{
-			url: '/admin/product',
-			text: 'Product',
+			url: '/admin/recipes',
+			text: 'Recipes',
 			cssClass: 'link--sideNav',
-			iconName: 'products',
-			highlight: 'product'
+			iconName: 'pie',
+			highlight: 'recipes'
 		},
 		{
-			url: '/admin/blogpost',
-			text: 'Blog Post',
+			url: '/admin/posts',
+			text: 'Posts',
 			cssClass: 'link--sideNav',
 			iconName: 'blog',
-			highlight: 'blog'
+			highlight: 'posts'
 		}
 	];
 </script>
@@ -51,8 +51,7 @@
 <style lang="scss">
 	.sideNav {
 		background-color: var(--color-level-2);
-		border-radius: 32px;
-		margin: 24px;
+		border-right: 1px solid var(--color-border-input);
 		padding: 32px;
 		grid-area: sideNav;
 		$self: &;
@@ -74,6 +73,9 @@
 			}
 			#{ $self }__icon {
 				margin-right: 16px;
+				:global(svg) {
+					stroke: #b2b3bd;
+				}
 			}
 		}
 	}
