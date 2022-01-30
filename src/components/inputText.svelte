@@ -1,15 +1,16 @@
 <script>
 	export let label = 'label';
-	export let type = 'text';
+	export let placeholder = '';
+	export let inputValue = '';
 </script>
 
-<div class="inputField">
-	<label for={label} class="inputField__label">{label}</label>
-	<input id={label} {type} class="inputField__input" />
+<div class="inputText">
+	<label for={label} class="inputText__label">{label}</label>
+	<input id={label} type="text" class="inputText__input" {placeholder} bind:value={inputValue} />
 </div>
 
 <style lang="scss">
-	.inputField {
+	.inputText {
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 24px;
