@@ -14,7 +14,7 @@
 			height: 43px;
 			&:focus {
 				outline: 0;
-				border: 1px solid var(--color-secondary);
+				border: 1px solid var(--color-primary);
 			}
 		}
 	}
