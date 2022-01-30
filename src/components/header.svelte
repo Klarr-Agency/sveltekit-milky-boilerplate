@@ -20,11 +20,6 @@
 			</ul>
 		</nav>
 	{:else if headerType === 'backend'}
-		<div class="logoContainer">
-			<a href="/admin/dashboard">
-				<img class="header__logo" src="/milky-logo-wt.svg" alt="Backend logo" />
-			</a>
-		</div>
 		<div class="profile">
 			<InputSearch />
 			<div class="profile__menu">
@@ -54,16 +49,6 @@
 			#{ $self }__logo {
 				width: 130px;
 			}
-		}
-		.logoContainer {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			grid-area: logo;
-			height: 100%;
-		}
-		&__logo {
-			width: 150px;
 		}
 		.profile {
 			display: flex;
