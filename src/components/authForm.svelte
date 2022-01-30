@@ -29,7 +29,7 @@
 	<a href="/">
 		<img class="auth__logo" src="/milky-logo-wt.svg" alt="klarr logo" />
 	</a>
-	<div class="auth__form">
+	<form class="auth__form">
 		{#if authType === 'login'}
 			{#each loginInputs as { label, type }}
 				<InputField {label} {type} />
@@ -47,7 +47,7 @@
 				<Link {...loginPage} />
 			</div>
 		{/if}
-	</div>
+	</form>
 </section>
 
 <style lang="scss">
