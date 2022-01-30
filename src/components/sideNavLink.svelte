@@ -22,19 +22,30 @@
 		&--sideNav {
 			display: flex;
 			align-items: center;
+			color: #b2b3bd;
 			padding: 12px;
 			font-size: 16px;
 			border-radius: 8px;
 			width: 100%;
 			&.selected {
-				background-color: var(--color-secondary);
+				background-color: var(--color-primary);
+				color: #fff;
+				:global(svg) {
+					stroke: #fff !important;
+				}
 				&:hover {
 					color: #fff;
+					:global(svg) {
+						stroke: #fff !important;
+					}
 				}
 			}
 		}
 		&:hover {
-			color: var(--color-secondary);
+			color: var(--color-primary);
+			:global(svg) {
+				stroke: var(--color-primary) !important;
+			}
 		}
 	}
 </style>
