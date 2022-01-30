@@ -7,8 +7,8 @@
 	<title>Dashboard</title>
 </svelte:head>
 <div class="adminLayout">
-	<Header headerType={'backend'} />
 	<SideNav />
+	<Header headerType={'backend'} />
 	<main class="mainContent">
 		<slot />
 	</main>
@@ -16,11 +16,11 @@
 
 <style lang="scss">
 	.adminLayout {
-	display: grid;
+		display: grid;
 		grid-template-columns: 0.5fr 1fr 1fr;
 		grid-template-rows: auto 1fr;
 		grid-template-areas:
-			'header header header'
+			'sideNav header header'
 			'sideNav main main';
 		min-height: 100vh;
 	}
