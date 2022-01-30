@@ -13,10 +13,6 @@
 		text-decoration: none;
 		padding: 12px 24px;
 		color: #fff;
-		&--sideNav {
-			padding: 0;
-			margin-left: 12px;
-		}
 		&:hover {
 			color: var(--color-secondary);
 		}
