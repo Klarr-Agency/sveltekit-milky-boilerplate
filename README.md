@@ -39,7 +39,7 @@ Work in progress
 - [ ] Dropdown menu [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Tile [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Tag [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
-- [ ] Grid [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
+- [ ] Grid [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 - [ ] Icons [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 
 ## Developing
