@@ -23,8 +23,10 @@
 		<div class="profile">
 			<InputSearch />
 			<div class="profile__menu">
-				<img class="profile__img" src="" alt="profil" />
-				<p class="profile__name">John Doe</p>
+				<div class="profile__imgWrapper">
+					<img class="profile__img" src="../elise-wilcox.jpg" alt="profil" />
+				</div>
+				<p class="profile__name">Elise Wilcox</p>
 			</div>
 		</div>
 	{/if}
@@ -45,6 +47,7 @@
 			grid-template-rows: 100px;
 			grid-area: header;
 			padding: 0;
+			margin: 0 64px;
 			height: 100%;
 			#{ $self }__logo {
 				width: 130px;
@@ -54,22 +57,27 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			margin-right: 24px;
 			grid-area: profile;
 			height: 100%;
 			&__menu {
 				display: flex;
 				align-items: center;
 			}
-			&__img {
+			&__imgWrapper {
+				position: relative;
 				border-radius: 100%;
-				height: 30px;
-				width: 30px;
+				overflow: hidden;
+				height: 40px;
+				width: 40px;
+			}
+			&__img {
+				position: absolute;
+				width: 100%;
 			}
 			&__name {
 				color: #fff;
 				font-family: var(--font-family);
-				margin-left: 24px;
+				margin-left: 16px;
 			}
 		}
 		.navHeader {
