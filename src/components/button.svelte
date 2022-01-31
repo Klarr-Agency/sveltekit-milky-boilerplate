@@ -23,7 +23,7 @@
 		padding: 12px 24px;
 		cursor: pointer;
 		&:hover {
-			$focus-color: #548c8b;
+			$focus-color: #e51d4b;
 			background-color: darken($color: $focus-color, $amount: 5%);
 		}
 	}

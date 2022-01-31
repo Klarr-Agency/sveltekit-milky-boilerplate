@@ -35,6 +35,8 @@
 				}
 				&:hover {
 					color: #fff;
+					$focus-color: #e51d4b;
+					background-color: darken($color: $focus-color, $amount: 5%);
 					:global(svg) {
 						stroke: #fff !important;
 					}
