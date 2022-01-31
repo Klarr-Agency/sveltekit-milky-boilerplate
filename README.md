@@ -1,6 +1,10 @@
 # <img src="https://user-images.githubusercontent.com/87146097/125525457-fb1e6547-9f58-4eec-937b-9260086ba486.png" width="30px"/> SvelteKit Milky boilerplate
 
 Work in progress
+<div style="border-radius:30px; overflow:hidden;">
+  <img src="https://user-images.githubusercontent.com/87146097/151729427-9ebd85fa-aa02-40a9-9134-cc19ee2d1f0d.png" />
+</div>
+
 
 ## License
 
@@ -20,7 +24,7 @@ Work in progress
 [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 [![Status Complete](https://img.shields.io/badge/-Complete-brightgreen)]()
 
-- [ ] Text Input [![Status Complete](https://img.shields.io/badge/-Complete-brightgreen)]()
+- [x] Text Input [![Status Complete](https://img.shields.io/badge/-Complete-brightgreen)]()
 - [ ] Search input [![Status Inprogress](https://img.shields.io/badge/-Inprogress-yellow)]()
 - [ ] Number input [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
 - [ ] Text area [![Status No started yet](https://img.shields.io/badge/-Not%20started%20yet-red)]()
